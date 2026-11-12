@@ -1,0 +1,19 @@
+# Exécutable du projet
+annuaire
+
+# Fichiers compilés et objets
+*.o
+*.out
+*.exe
+
+# Fichiers de débogage et Valgrind
+*.dSYM/
+vgcore.*
+
+# Dossiers d'éditeurs (VS Code, CLion, etc.)
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db

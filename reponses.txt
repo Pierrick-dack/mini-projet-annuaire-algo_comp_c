@@ -1,0 +1,6 @@
+Etape 2 - Question 2 : 
+
+Stratégie choisie : L'insertion directe à la bonne position (principe du tri par insertion). Plutôt que d'ajouter à la fin et de retrier tout le tableau à chaque ajout (O(n \log n)), on parcourt le tableau depuis la fin en décalant d'une case vers la droite les e-mails alphabétiquement plus grands, puis on insère le nouvel utilisateur dans la place libérée.
+
+Coût de l'insertion : O(n) en moyenne et dans le pire cas (insertion en début de tableau, nécessitant de décaler tous les éléments en mémoire), et O(1) dans le meilleur cas (insertion directement à la fin).
+
